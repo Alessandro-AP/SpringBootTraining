@@ -2,3 +2,9 @@ server:
   servlet:
     context-path: /api
 
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://localhost:5432/demo_db
+    username: postgres
+    password: admin
+    pool-size: 30
